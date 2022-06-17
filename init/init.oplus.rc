@@ -84,6 +84,9 @@ on property:vendor.post_boot.parsed=1
     setprop dalvik.vm.dex2oat-cpu-set 0,1,2,3,4,5,6
     setprop dalvik.vm.dex2oat-threads 6
 
+    # SSG
+    write /dev/blkio/background/blkio.ssg.max_available_ratio 25
+
 # Route touch_sensitivity_mode to persist
 on property:debug.touch_polling_mode=0
     setprop persist.vendor.touch_polling_mode 0
