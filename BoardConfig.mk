@@ -129,6 +129,9 @@ KERNEL_DEFCONFIG := vendor/lahaina-qgki_defconfig
 KERNEL_CUSTOM_LLVM := true
 KERNEL_FULL_LLVM := true
 
+# Lineage Health
+TARGET_HEALTH_CHARGING_CONTROL_CHARGING_PATH := /sys/class/oplus_chg/battery/mmi_charging_enable
+
 # OTA
 #TARGET_OTA_ASSERT_DEVICE := OP5155L1,OP5154L1
 

@@ -203,6 +203,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_VENDOR_PROPERTIES += \
     persist.wm.enable_remote_keyguard_animation=0
 
+# Lineage Health
+PRODUCT_PACKAGES += \
+    vendor.lineage.health-service.default
+
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.2.vendor
