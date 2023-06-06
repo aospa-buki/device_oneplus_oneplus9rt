@@ -3,10 +3,11 @@ vendor.oplus.hardware.cammidasservice::IMIDASService    u:object_r:hal_camera_hw
 
 # Fingerprint
 vendor.oplus.hardware.biometrics.fingerprint::IBiometricsFingerprint    u:object_r:hal_fingerprint_hwservice:s0
-vendor.oplus.hardware.commondcs::ICommonDcsHalService                   u:object_r:hal_fingerprint_hwservice:s0
+vendor.oplus.hardware.commondcs::ICommonDcsAidlHalService               u:object_r:hal_fingerprint_hwservice:s0
 
 # ORMS
 vendor.oplus.hardware.orms::IOrmsHalProxy    u:object_r:vendor_hal_orms_hwservice:s0
 
 # Osense
 vendor.oplus.hardware.osense.client::IOsenseHalReporter                 u:object_r:vendor_hal_osense_hwservice:s0
+vendor.oplus.hardware.osense.client::IOsenseAidlHalReporter             u:object_r:vendor_hal_osense_hwservice:s0
