@@ -65,6 +65,7 @@ PRODUCT_PACKAGES += \
     libstdc++.vendor
 
 PRODUCT_VENDOR_PROPERTIES += \
+    ro.audio.monitorRotation=true \
     ro.config.vc_call_vol_steps=9 \
     persist.vendor.audio_hal.dsp_bit_width_enforce_mode=24
 
