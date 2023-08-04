@@ -152,6 +152,9 @@ PRODUCT_VENDOR_PROPERTIES += \
     ro.surface_flinger.use_content_detection_for_refresh_rate=true \
     vendor.display.primary_mixer_stages=9
 
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.surface_flinger.supports_background_blur=1
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/display/display_id_4630946728207028354.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946728207028354.xml
 
