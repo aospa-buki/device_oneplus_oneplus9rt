@@ -205,6 +205,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.2.vendor
 
+# LMK
+PRODUCT_VENDOR_PROPERTIES += \
+    ro.lmk.filecache_min_kb=153600
+
 # Namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
