@@ -207,7 +207,8 @@ PRODUCT_PACKAGES += \
 
 # LMK
 PRODUCT_VENDOR_PROPERTIES += \
-    ro.lmk.filecache_min_kb=153600
+    ro.lmk.filecache_min_kb=153600 \
+    ro.lmk.kill_timeout_ms=50
 
 # Namespaces
 PRODUCT_SOONG_NAMESPACES += \
