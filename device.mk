@@ -152,7 +152,8 @@ PRODUCT_VENDOR_PROPERTIES += \
     ro.surface_flinger.set_idle_timer_ms=4000 \
     ro.surface_flinger.set_touch_timer_ms=4000 \
     ro.surface_flinger.use_content_detection_for_refresh_rate=true \
-    vendor.display.primary_mixer_stages=9
+    vendor.display.primary_mixer_stages=9 \
+    vendor.display.disable_rotator_downscale=1
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.supports_background_blur=1 \
