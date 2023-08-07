@@ -147,6 +147,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_VENDOR_PROPERTIES += \
     debug.sf.disable_backpressure=1 \
     debug.sf.frame_rate_multiple_threshold=60 \
+    debug.sf.predict_hwc_composition_strategy=0 \
     ro.surface_flinger.refresh_rate_switching=true \
     ro.surface_flinger.set_display_power_timer_ms=1000 \
     ro.surface_flinger.set_idle_timer_ms=4000 \
