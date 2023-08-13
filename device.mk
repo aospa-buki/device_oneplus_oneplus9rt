@@ -103,6 +103,9 @@ PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.qcom.bluetooth.twsp_state.enabled=false \
     vendor.hw.fm.init=0
 
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    persist.vendor.btstack.enable.lpa=true
+
 PRODUCT_VENDOR_PROPERTIES += \
     bluetooth.hardware.power.idle_cur_ma=6 \
     bluetooth.hardware.power.operating_voltage_mv=3700 \
