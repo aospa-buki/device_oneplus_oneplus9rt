@@ -204,6 +204,10 @@ PRODUCT_VENDOR_PROPERTIES += \
 PRODUCT_PACKAGES += \
    android.hardware.keymaster@4.1.vendor
 
+# Keyguard
+PRODUCT_VENDOR_PROPERTIES += \
+    persist.wm.enable_remote_keyguard_animation=0
+
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.2.vendor
