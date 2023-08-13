@@ -111,6 +111,7 @@ BOARD_KERNEL_CMDLINE := \
     androidboot.memcg=1 \
     androidboot.usbcontroller=a600000.dwc3 \
     cgroup.memory=nokmem,nosocket \
+    cgroup_disable=pressure \
     console=ttyMSM0,115200n8 \
     ip6table_raw.raw_before_defrag=1 \
     iptable_raw.raw_before_defrag=1 \
