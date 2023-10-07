@@ -482,8 +482,6 @@
         <item>"/system/system_ext/lib64/libpenguin.so"</item>
         <item>"/system/system_ext/lib64/libpenguin_impl.so"</item>
         <item>"/system/system_ext/priv-app/ParanoidSystemUI/ParanoidSystemUI.apk"</item>
-        <item>"/system_ext/priv-app/DaxUI/DaxUI.apk"</item>
-        <item>"/system_ext/priv-app/daxService/daxService.apk"</item>
         <item>"/vendor/lib/libcamxexternalformatutils.so"</item>
         <item>"/vendor/lib/libipebpsstriping170.so"</item>
         <item>"/vendor/lib/libipebpsstriping.so"</item>

@@ -13,10 +13,6 @@
 # limitations under the License.
 
 on post-fs-data
-    # Dolby
-    mkdir /data/vendor/dolby 0770 media media
-    mkdir /data/vendor/multimedia 0775 system system
-
     # Bind mount fastrpc_shell_3 for labelling
     mkdir /mnt/vendor/dsp 0770 root root
     copy /vendor/dsp/cdsp/fastrpc_shell_3 /mnt/vendor/dsp/fastrpc_shell_3

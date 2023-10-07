@@ -97,16 +97,6 @@
             <instance>default</instance>
         </interface>
     </hal>
-    <!-- Dolby -->
-    <hal format="hidl" optional="true">
-        <name>vendor.dolby.hardware.dms</name>
-        <transport>hwbinder</transport>
-        <version>2.0</version>
-        <interface>
-            <name>IDms</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
     <!-- CNE -->
     <hal format="hidl">
         <name>vendor.qti.data.factory</name>
