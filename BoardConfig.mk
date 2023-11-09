@@ -76,6 +76,9 @@ TARGET_2ND_CPU_VARIANT := cortex-a76
 # Biometrics
 TARGET_SURFACEFLINGER_UDFPS_LIB := //hardware/oplus:libudfps_extension.oplus
 
+# Camera
+TARGET_CAMERA_PACKAGE_NAME := com.oplus.packageName
+
 # Display density
 TARGET_SCREEN_DENSITY := 437
 
