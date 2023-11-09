@@ -71,8 +71,6 @@ PRODUCT_ODM_PROPERTIES += \
     persist.vendor.audio.spv4.enable=false \
     persist.vendor.audio.vbat.enabled=false \
     vendor.audio.feature.compr_voip.enable=true \
-    vendor.audio.feature.spkr_prot.enable=false \
-    vendor.audio.hal.output.suspend.supported=false \
     vendor.audio.offload.buffer.size.kb=256
 
 # Biometrics
