@@ -284,7 +284,6 @@ TARGET_COMMON_QTI_COMPONENTS := \
     qseecomd \
     telephony \
     usb \
-    vibrator \
     wfd \
     wlan
 
@@ -361,6 +360,9 @@ $(call inherit-product, vendor/oneplus/oneplus9rt/oneplus9rt-vendor.mk)
 # Vibrator
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.vibrator.service.oplus
+
+PRODUCT_COPY_FILES += \
+    vendor/qcom/opensource/vibrator/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml
 
 # VNDK
 PRODUCT_COPY_FILES += \
