@@ -15,6 +15,10 @@
             <nits>800.0</nits>
         </point>
     </screenBrightnessMap>
+    <screenBrightnessRampFastDecrease>0.5</screenBrightnessRampFastDecrease>
+    <screenBrightnessRampFastIncrease>0.5</screenBrightnessRampFastIncrease>
+    <screenBrightnessRampSlowDecrease>0.04</screenBrightnessRampSlowDecrease>
+    <screenBrightnessRampSlowIncrease>0.05</screenBrightnessRampSlowIncrease>
     <highBrightnessMode enabled="true">
         <transitionPoint>0.4998779</transitionPoint> <!-- 2047/4095 -->
         <minimumLux>10101</minimumLux>
