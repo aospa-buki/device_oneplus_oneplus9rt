@@ -257,7 +257,8 @@ PRODUCT_PACKAGES += \
     OnePlus9RTSettingsProvider \
     OnePlus9RTSystemUI \
     OnePlus9RTSystemUIAOSPA \
-    WifiResTarget
+    WifiResTarget \
+    WifiResTargetMainline
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
