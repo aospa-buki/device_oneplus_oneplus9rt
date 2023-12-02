@@ -83,6 +83,9 @@ on property:vendor.post_boot.parsed=1
     # SSG
     write /dev/blkio/background/blkio.ssg.max_available_ratio 25
 
+    # Enable suspend to RAM
+    write /sys/power/mem_sleep "deep"
+
 # Route touch_sensitivity_mode to persist
 on property:debug.touch_polling_mode=0
     setprop persist.vendor.touch_polling_mode 0
