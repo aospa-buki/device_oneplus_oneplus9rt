@@ -220,6 +220,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_VENDOR_PROPERTIES += \
     persist.wm.enable_remote_keyguard_animation=0
 
+# Mediaserver
+PRODUCT_VENDOR_PROPERTIES += \
+    ro.mediaserver.64b.enable=true
+
 # Lineage Health
 PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
