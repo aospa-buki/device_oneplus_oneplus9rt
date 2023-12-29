@@ -328,7 +328,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.sensors.allow_non_default_discovery=true \
     persist.vendor.sensors.on_change_sample_period=true \
-    persist.vendor.sensors.sync_request=true
+    persist.vendor.sensors.sync_request=true \
+    persist.vendor.sensors.debug.hal=0
 
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     persist.vendor.sensors.enable.mag_filter=true
