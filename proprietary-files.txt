@@ -349,7 +349,7 @@ odm/etc/camera/filters_res/film_grain_small.bin|b98855ca8ca85c4ed736f0f02484622d
 odm/etc/camera/filters_res/lut_all_points.png|1c3f2d6bab41f8f54ce948872588c4a718c43ac4
 odm/etc/camera/filters_res/overlay_p4_3_weak.png|d17b9bf407e2bfc9e727429672adfe681fc03670
 odm/etc/camera/model/DocDetectV15.xbin|ff40cbe1cc82fe484764029c4a42386f32c8fe51
-odm/etc/camera/CameraHWConfiguration.config|de804f01953bf6fabd0439a2a4c6adf0dc9670b3
+odm/etc/camera/CameraHWConfiguration.config|1d1029404f8c8b505648ba4a7efecf33a8d5de80
 odm/etc/camera/distortionParams.bin|56359b6e9f73a91e18c063c15c675815d0d6d34d
 odm/etc/camera/eis_camera.vcfg|d2aeb2cae54630a34c3c1a497972c0cf27dcde08
 odm/etc/camera/fdc_cl.cache|64f698c60165482e86eda27c59d7d72f11ec30c9
