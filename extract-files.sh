@@ -57,6 +57,7 @@ function blob_fixup() {
     case "${1}" in
         odm/etc/camera/CameraHWConfiguration.config)
             sed -i "/SystemCamera = / s/1;/0;/g" "${2}"
+            sed -i "/SystemCamera = / s/0;$/1;/" "${2}"
             ;;
         vendor/lib/libgui1_vendor.so)
             "${PATCHELF}" --replace-needed "libui.so" "libui-v30.so" "${2}"
