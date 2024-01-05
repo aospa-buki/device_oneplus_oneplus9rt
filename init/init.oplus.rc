@@ -86,6 +86,14 @@ on property:vendor.post_boot.parsed=1
     # Enable suspend to RAM
     write /sys/power/mem_sleep "deep"
 
+    # OPlus drivers tuning
+    chown system system /sys/devices/system/cpu/cpufreq/policy4/schedutil/target_loads
+    chmod 0666 /sys/devices/system/cpu/cpufreq/policy4/schedutil/target_loads
+    chown system system /sys/devices/system/cpu/cpufreq/policy7/schedutil/target_loads
+    chmod 0666 /sys/devices/system/cpu/cpufreq/policy7/schedutil/target_loads
+    write /sys/devices/system/cpu/cpufreq/policy4/schedutil/target_loads "80 2112000:95"
+    write /sys/devices/system/cpu/cpufreq/policy7/schedutil/target_loads "80 2380800:95"
+
 # Route touch_sensitivity_mode to persist
 on property:debug.touch_polling_mode=0
     setprop persist.vendor.touch_polling_mode 0
