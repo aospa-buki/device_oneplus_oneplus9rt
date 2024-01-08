@@ -59,6 +59,9 @@ function blob_fixup() {
             sed -i "/SystemCamera = / s/1;/0;/g" "${2}"
             sed -i "/SystemCamera = / s/0;$/1;/" "${2}"
             ;;
+        vendor/etc/media_lahaina/video_system_specs.json)
+            sed -i "/max_retry_alloc_output_timeout/ s/1000/0/" "${2}"
+            ;;
         vendor/lib/libgui1_vendor.so)
             "${PATCHELF}" --replace-needed "libui.so" "libui-v30.so" "${2}"
             ;;
