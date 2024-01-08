@@ -61,6 +61,9 @@ function blob_fixup() {
             ;;
         vendor/etc/media_lahaina/video_system_specs.json)
             sed -i "/max_retry_alloc_output_timeout/ s/1000/0/" "${2}"
+            sed -i 's/"pipelining": true/\/\/"pipelining": true/' "${2}"
+            sed -i 's/"liboplusvppfilter.so"/\/\/"liboplusvppfilter.so"/' "${2}"
+            sed -i 's/"libqc2vppfilter.so",/"libqc2vppfilter.so"/' "${2}"
             ;;
         vendor/lib/libgui1_vendor.so)
             "${PATCHELF}" --replace-needed "libui.so" "libui-v30.so" "${2}"
