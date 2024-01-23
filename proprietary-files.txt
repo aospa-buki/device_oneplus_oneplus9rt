@@ -829,7 +829,6 @@ vendor/etc/media_profiles.xml|981dd4a7ffb9020aa1142930ff3ae6d07bda12aa
 vendor/etc/media_profiles_V1_0.xml|2da4310e65720a36ee8422228959795f467f102e
 vendor/etc/media_profiles_lahaina.xml|30e3d2862021cc6bd60f1fa29eaef64126ce07bc
 vendor/etc/media_profiles_lahaina_vendor.xml|30e3d2862021cc6bd60f1fa29eaef64126ce07bc
-vendor/etc/media_profiles_vendor.xml|30e3d2862021cc6bd60f1fa29eaef64126ce07bc
 
 # NFC
 vendor/etc/libnfc-mtp-SN100.conf
